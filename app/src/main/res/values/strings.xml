@@ -1,0 +1,77 @@
+<resources>
+  <string name="app_name">APP</string>
+  <string name="modocadastrado">Modo Cadastrado</string>
+  <string name="modoanonimo">Modo Anônimo</string>
+  <string name="legendamodocadastrado">Informações pelo e-mail.</string>
+  <string name="legendamodoanonimo">Garanta seu sigilo.</string>
+  <string name="entrar">Entrar</string>
+  <string name="usuario">usuário</string>
+  <string name="senha">Senha</string>
+  <string name="ou">ou</string>
+  <string name="teste"> GOOGLE</string>
+  <string name="oi"> Olá eu sou o fragA</string>
+  <string name="dados"> Dados </string>
+  <string name="titulo"> Título da Denúncia </string>
+  <string name="descricao"> Descrição da Denúncia...
+        coloque todos os detalhes!</string>
+  <string-array name="categoria">
+    <item>Selecione uma categoria</item>
+    <item>Meio Ambiente</item>
+    <item>Maus Tratos à Animais</item>
+  </string-array>
+  <string name="proximo">Próximo</string>
+  <string name="evidencia">Evidência</string>
+  <string name="imagem">Selecionar mídia </string>
+  <string name="veraciade"> Este item é imprescindível para sabermos a veracidade da denúncia. </string>
+  <string name="localizacao">Localização</string>
+  <string name="login">Login Firebase</string>
+  <string name="email">E-mail:</string>
+  <string name="senhaa">Senha</string>
+  <string name="cadastrar">Cadastre-se</string>
+  <string name="informacoes">Coloque todas as informações! </string>
+  <string name="cadastro"> Cadastro </string>
+  <string name="registrar"> Registrar </string>
+  <string name="voltar"> Voltar </string>
+  <string name="perfil"> Perfil (aqui terá a foto do usuário) </string>
+  <string name="id"> ID: </string>
+  <string name="logOut"> Sair </string>
+  <string name="naoLembra"> Esqueceu sua senha? </string>
+  <string name="slogan"> SOSPlanet e você para um mundo melhor! </string>
+  <string name="naoverifica"> E-mail não verificado. </string>
+  <string name="criarConta"> Crie sua conta! </string>
+  <string name="go"> Ir para o APP </string>
+  <string name="forneca"> Forneça uma evidência da denúncia </string>
+  <string name="nome"> Nome </string>
+  <string name="enviarEmail"> Enviar e-mail para redefinir senha </string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="esqueceusenha">Esqueceu sua senha?</string>
+  <string name="btnEnviar">Enviar</string>
+  <string name="app_nome">SOSPlanet</string>
+  <string name="upload"> Fazer Upload </string>
+  <string name="imagemPerfil"> Foto de Perfil </string>
+  <string name="salvar">Salvar foto </string>
+  <string name="endereco">Pesquisar endereço</string>
+  <string name="btnListagem">Consultar denúncias </string>
+  <string name="txtcadast">Não Tem Conta ? Registre-se</string>
+  <string name="config">Configurações</string>
+  <string name="concluir"> Finalizar denúncia</string>
+  <string name="finalizarDenuncia"> Encerrar denúncia</string>
+  <string name="tituloDenuncia"> Título da denúncia</string>
+  <string name="ViewRecycler">Denúncias</string>
+  <string name="modoOrgao">Órgão Governamental</string>
+  <string name="finsh">Finalizar denúncia</string>
+  <string name="delete">Excluir denúncia</string>
+  <string name="finalizar">Finalizar denúncia</string>
+    <string name="viewDenuncias">Visualizar denúncias</string>
+  <string name="minhasdenuncias">Minhas denúncias</string>
+  <string name="sair">Sair</string>
+    <string name="txtTitulo">Título:</string>
+  <string name="txtDescricao">Descrição:</string>
+  <string name="txtLocalizacao">Localização:</string>
+  <string name="txtSituacao">Situação:</string>
+  <string name="txtObs">Observações feitas:</string>
+    <string name="fazerdenuncia">Denunciar</string>
+    <string name="certeza">Sua denúncia já foi encerrada? Digite o título dela para finalizar!</string>
+    <string name="imei">Obtenha seu imei</string>
+</resources>

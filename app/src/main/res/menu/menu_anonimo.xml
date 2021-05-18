@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fazerdenuncia"
+        android:title="@string/fazerdenuncia" />
+
+    <item android:title="@string/ViewRecycler"
+        android:id="@+id/MenuList"/>
+
+    <item
+        android:id="@+id/MinhasDenuncias"
+        android:title="@string/minhasdenuncias" />
+
+
+
+</menu>

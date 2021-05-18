@@ -1,0 +1,124 @@
+body{
+    background:#B0E0E6;
+    font-family: ubuntu;
+}
+
+h1{
+    color: #000000	;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.content{
+    background: #fff;
+    max-width: 965px;
+    margin: 35px auto;
+    padding:  20px 30px;
+    border-radius: 10px 120px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    padding: 20px;
+    background: #f6f6f6;
+    font-size: 16px;
+    color: #555;
+	margin-top:12px;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+li:nth-child(even){
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+li span{
+    display: block;
+}
+
+
+
+li span:nth-child(2){
+    font-size: 16px;
+    margin-top: 6px;
+    color: #555;
+}
+
+li div{
+    top: 0;
+    right: 0px;
+    background: rgba(255,255,255,0.6);
+	width:200px;
+	border:radius;
+	height:8px;
+	margin-left:300px;
+    text-align: center;
+	margin-top:8px;
+    padding: 10px 0;
+    font-weight:  bold;
+    cursor:  pointer;
+}
+
+
+
+h5 {
+	color:#808080;
+}
+
+form input{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+form input:focus{
+    outline: none;
+    border-bottom: 3px solid #88236f;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+button{
+    border: 0;
+    background: #fff;
+    border-radius: 10px;
+    padding: 13px;
+	margin-left:20px;
+    box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-family: ubuntu;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+select {
+	margin-top:21px;
+	font-size:15px;
+	width:20%;
+}

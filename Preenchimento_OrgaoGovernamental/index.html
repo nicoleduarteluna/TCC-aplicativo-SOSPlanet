@@ -1,0 +1,52 @@
+﻿<html lang="pt">
+    <head>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+		<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+    </head>
+    <body>
+
+        <h1> SOSPlanet</h1>
+
+        <div class="content">
+			<h3> Registros </h3>
+			<h5> ** Ao inserir os dados, atualize a página ** </h5>
+            <form id="add-denuncia-form">
+				<input type="text" name="observacao" placeholder="observações">				
+				<select name="situacao">
+						<option value="" selected>Status</option> 
+						<option value="Em aberto">Em aberto </option> 
+						<option value="Em andamento" >Em andamento</option>
+						<option value="Concluída">Concluída</option>
+				</select>	
+			</form>
+            <ul id="denuncia-list"></ul>
+        </div>
+		
+		
+
+		
+			<script>
+				  // Your web app's Firebase configuration
+					   var firebaseConfig = {
+									apiKey: "AIzaSyBDnxtDWDV1cH0qdAS14VLvxdXdSw-F_2s",
+									authDomain: "sosplanet2k20.firebaseapp.com",
+									databaseURL: "https://sosplanet2k20.firebaseio.com",
+									projectId: "sosplanet2k20",
+									storageBucket: "sosplanet2k20.appspot.com",
+									messagingSenderId: "1097472073429",
+									appId: "1:1097472073429:web:2b3c3e6e7221ba273dcc5c",
+									measurementId: "G-PPBCFVVSVM"
+								  };
+					  // Initialize Firebase
+					  firebase.initializeApp(firebaseConfig);
+					  firebase.analytics();
+					  
+				  	  const db = firebase.firestore();
+					  db.settings({ timestampsInSnapshots: true }); 
+			</script>
+			<script src="app.js"></script>
+    </body>
+</html>

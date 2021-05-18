@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".LocationActivity">
+
+<!--
+    <Button
+        android:id="@+id/btnDados"
+        android:layout_width="113dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/modo_cadastrado"
+        android:onClick="onClick"
+        android:text="@string/dados"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEvidencia"
+        android:layout_width="113dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/modo_cadastrado"
+        android:onClick="onClick"
+        android:text="@string/evidencia"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toStartOf="@+id/btnLocalizacao"
+        app:layout_constraintStart_toEndOf="@+id/btnDados"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLocalizacao"
+        android:layout_width="108dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/modo_cadastrado"
+        android:text="@string/localizacao"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        -->
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:hint="@string/endereco"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view1"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:padding="12dp"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+
+
+
+
+</LinearLayout>

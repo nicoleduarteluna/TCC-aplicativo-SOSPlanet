@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_nome"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AnonimoActivity"></activity>
+        <activity android:name=".ListDenuActivity" />
+        <activity android:name=".Imei" />
+        <activity android:name=".ListDenuIDActivity" />
+        <activity android:name=".ListDenuIDAnonimoActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".FinishActivity" />
+        <activity android:name=".FinishAnonimoActivity" />
+        <activity android:name=".TesteActivity" />
+        <activity android:name=".EvidenceActivity" />
+        <activity android:name=".ComplaintActivity" />
+        <activity android:name=".Denuncia" />
+        <activity android:name=".Cadastro" />
+        <activity android:name=".Login" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".ResetSenha" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
