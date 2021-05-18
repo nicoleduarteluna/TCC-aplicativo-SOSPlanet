@@ -1,0 +1,6 @@
+Como funciona o aplicativo SOSPlanet?
+O SOSPlanet é um aplicativo de denúncias, onde o usuário pode se cadastrar e fazer sua denúncia pelo aplicativo.
+A denúncia quando solucionada, é alterada seu Status pelo site do Órgão Governamental e a pessoa ao ver que sua denúncia estaria "concluída", poderia finalizar sua denúncia de fato. 
+Essa é a dinâmica, do app. 
+Foi utilizado o próprio Firebase, para que funcione universalmente. 
+Lembrando que é um aplicativo humilde e feito exclusivamente para o TCC do curso técnico.
